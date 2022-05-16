@@ -1,0 +1,7 @@
+Projeto criado a partir de um vídeo sobre flexbox:
+https://youtu.be/KbjLtEgmZ_E
+
+Flexbox serve para alinhar elementos dentro da
+área definida, como <div>, <ul> ou <main>.
+Sempre definido na área que divide os elementos,
+não nos elementos

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>calculadora</title>
+    <style type="text/css">
+        h1{
+            margin: 0;
+        }
+        .resultado{
+            display: flex;
+            justify-content: center;
+            height: 50px;
+            
+        }
+        .container{
+            display: flex;
+            /*justify-content: space-between;*/
+            justify-content: space-around;
+        }
+        input{
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <main class="resultado">
+        <h1 id="resposta"></h1>
+    </main>
+    <main class="container">
+        <input type="submit" value="7" class="botao" onclick="calculo(7)">
+        <input type="submit" value="8" class="botao" onclick="calculo(8)">
+        <input type="submit" value="9" class="botao" onclick="calculo(9)">
+    </main>
+    
+    <main class="container">
+        <input type="submit" value="4" class="botao" onclick="calculo(4)">
+        <input type="submit" value="5" class="botao" onclick="calculo(5)">
+        <input type="submit" value="6" class="botao" onclick="calculo(6)">
+    </main>
+    <main class="container">
+        <input type="submit" value="1" class="botao" onclick="calculo(1)">
+        <input type="submit" value="2" class="botao" onclick="calculo(2)">
+        <input type="submit" value="3" class="botao" onclick="calculo(3)">
+    </main>
+    <main class="container">
+        <input type="submit" value="0" class="botao" onclick="calculo(0)">
+        <input type="submit" value="-" class="botao" onclick="calculo('-')">
+        <input type="submit" value="+" class="botao" onclick="calculo('+')">
+    </main>
+    <main class="container">
+        <input type="submit" value="C" onclick="limpar()">
+        <input type="submit" value="=" onclick="calcular()">
+        <input type="submit" value="<" onclick="apagar()">        
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
